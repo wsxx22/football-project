@@ -1,11 +1,3 @@
-.wrapper {
-    display: flex;
-}
-
-.menu {
-    width: 15%;
-}
-
-.content {
-    width: 85%;
+.App {
+    text-align: center;
 }

@@ -4,11 +4,6 @@ import {Team} from "../../../entity/Team";
 import '../../../css/Teams.css'
 import {API_KEY, GET_TEAMS_BY_LEAGUE} from "../../../constants/ApiRoute";
 import {FormComponent} from "../FormComponent";
-import {MainPageComponent} from "../../MainPageComponent";
-
-// interface TeamsComponentProps {
-//     teams: Team[];
-// }
 
 interface TeamsComponentState {
     premierLeagueTeams: Team[];
@@ -43,8 +38,6 @@ export class TeamsComponent extends React.Component<{}, TeamsComponentState> {
                 console.log(teams);
             });
     };
-
-
 
     getTeams(): JSX.Element[] {
         return this.state.premierLeagueTeams.map(team => <TeamComponent key={team.team_id} team={team}/>)

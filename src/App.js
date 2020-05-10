@@ -5,7 +5,10 @@ import {MainPageComponent} from "./components/MainPageComponent";
 export class App extends Component {
     render() {
         return (
-            <MainPageComponent/>
+            <div>
+
+            </div>
+            // <MainPageComponent/>
         )
     }
 }

@@ -8,15 +8,15 @@ import {Link} from "react-router-dom";
 export class MenuComponent extends React.Component<{}, {}> {
     render() {
         return (
-            <div className="wrapper">
+            <div>
                 <MenuList className="menu">
-                    <MenuItem>
+                    <MenuItem component={Link} to="/">
                         <Avatar>
                             <HomeOutlined/>
                         </Avatar>
                         <span>Strona główna</span>
                     </MenuItem>
-                    <MenuItem>
+                    <MenuItem component={Link} to="/standings">
                         <Avatar>
                             <ImageIcon/>
                         </Avatar>

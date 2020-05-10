@@ -1,11 +1,5 @@
-.wrapper {
-    width: 15%;
-}
-
 .menu {
-    width: 100%;
     max-width: 360px;
-    background-color: lightslategrey;
 }
 
 .menu span {
