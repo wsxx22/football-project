@@ -1,19 +1,22 @@
 import React from "react";
-import {MainPageHeaderComponent} from "./MainPageHeaderComponent";
+import {Header} from "./Header";
 import '../css/MainPage.css'
 import {MenuComponent} from "./menu/MenuComponent";
-import {ContentComponent} from "./content/ContentComponent";
-
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {TeamsComponent} from "./content/team/TeamsComponent";
 
 export class MainPageComponent extends React.Component<{}, {}> {
     render() {
         return (
             <div className="App">
-                <MainPageHeaderComponent/>
-                <div className="wrapper">
+                <Header/>
+                <BrowserRouter>
                     <MenuComponent/>
-                    <ContentComponent/>
-                </div>
+                    <Switch>
+                        <Route path='/' exact component={MainPageComponent}/>
+                        <Route path="/teams" component={TeamsComponent}/>
+                    </Switch>
+                </BrowserRouter>
             </div>
         )
     }

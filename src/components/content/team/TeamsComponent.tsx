@@ -4,6 +4,7 @@ import {Team} from "../../../entity/Team";
 import '../../../css/Teams.css'
 import {API_KEY, GET_TEAMS_BY_LEAGUE} from "../../../constants/ApiRoute";
 import {FormComponent} from "../FormComponent";
+import {MainPageComponent} from "../../MainPageComponent";
 
 // interface TeamsComponentProps {
 //     teams: Team[];

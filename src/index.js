@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import * as serviceWorker from './serviceWorker';
-import RouterComponent from './components/routing/RouterComponent'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <RouterComponent />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

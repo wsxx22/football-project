@@ -17,7 +17,7 @@ export class MenuComponent extends React.Component<{}, {}> {
                         </Avatar>
                         <span>Strona główna</span>
                     </MenuItem>
-                    <MenuItem component={Link} to="/standings">
+                    <MenuItem>
                         <Avatar>
                             <ImageIcon/>
                         </Avatar>
@@ -27,13 +27,7 @@ export class MenuComponent extends React.Component<{}, {}> {
                         <Avatar>
                             <ImageIcon/>
                         </Avatar>
-                        <span>Drużyny piłkarskie</span>
-                    </MenuItem>
-                    <MenuItem>
-                        <Avatar>
-                            <ImageIcon/>
-                        </Avatar>
-                        <span>Boiska i Stadiony</span>
+                        <span>Drużyny</span>
                     </MenuItem>
                 </MenuList>
             </div>
