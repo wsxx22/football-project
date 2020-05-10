@@ -1,0 +1,24 @@
+.team-Title {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: block;
+}
+
+.team-content {
+    margin-left: 5px;
+}
+
+img {
+    width: 30%;
+    margin-left: 100px;
+}
+
+.box {
+    margin-bottom: 15px;
+}
+
+.detail-button {
+    margin-left: 15px;
+
+}
