@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import * as serviceWorker from './serviceWorker';
+import {MainPageComponent} from "./components/MainPageComponent";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MainPageComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
