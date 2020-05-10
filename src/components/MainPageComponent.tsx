@@ -1,7 +1,7 @@
 import React from "react";
 import {Header} from "./Header";
 import '../css/MainPage.css'
-import {MenuComponent} from "./menu/MenuComponent";
+import {MenuComponent} from "./MenuComponent";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import {TeamsComponent} from "./content/team/TeamsComponent";
 

@@ -1,9 +1,8 @@
 import React from "react";
 import {Avatar, MenuList, MenuItem} from "@material-ui/core";
 import ImageIcon from '@material-ui/icons/Image';
-import '../../css/Menu.css'
+import '../css/Menu.css'
 import {HomeOutlined} from "@material-ui/icons";
-import {TeamsComponent} from "../content/team/TeamsComponent";
 import {Link} from "react-router-dom";
 
 export class MenuComponent extends React.Component<{}, {}> {
